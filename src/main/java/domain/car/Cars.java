@@ -1,6 +1,6 @@
 package domain.car;
 
-import domain.game.TrackDto;
+import domain.game.Track;
 import domain.strategy.MovingStrategy;
 import spark.utils.CollectionUtils;
 
@@ -48,7 +48,7 @@ public class Cars {
                 .collect(Collectors.toList());
     }
 
-    public TrackDto getTracks() {
-        return new TrackDto(new ArrayList<>(cars));
+    public Track getTracks() {
+        return new Track(new ArrayList<>(cars));
     }
 }

@@ -2,7 +2,7 @@ package view;
 
 import domain.car.Car;
 import domain.game.RacingGame;
-import domain.game.TrackDto;
+import domain.game.Track;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -43,7 +43,7 @@ public class OutputView {
         System.out.println("승자는  # " + winners + " # 축하합니다~");
     }
 
-    private static void printTracks(TrackDto tracks) {
+    private static void printTracks(Track tracks) {
         for (Car car : tracks.getCars()) {
             final String history = IntStream.range(0, car.getPosition())
                     .mapToObj(num -> "-")

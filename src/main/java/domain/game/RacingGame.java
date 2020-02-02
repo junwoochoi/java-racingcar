@@ -38,7 +38,7 @@ public class RacingGame {
         return this.countOfTurns == 0;
     }
 
-    public TrackDto proceedAndGetTrack() {
+    public Track proceedAndGetTrack() {
         proceedOneTurn();
         return cars.getTracks();
     }
@@ -57,5 +57,9 @@ public class RacingGame {
 
     public List<Car> getWinner() {
         return cars.getWinners();
+    }
+
+    public Track getTrack() {
+        return cars.getTracks();
     }
 }

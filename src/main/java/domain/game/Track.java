@@ -6,14 +6,14 @@ import spark.utils.CollectionUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TrackDto {
+public class Track {
     List<Car> cars = new ArrayList<>();
 
     public List<Car> getCars() {
         return new ArrayList<>(cars);
     }
 
-    public TrackDto(List<Car> cars) {
+    public Track(List<Car> cars) {
         validate(cars);
         this.cars.addAll(cars);
     }
