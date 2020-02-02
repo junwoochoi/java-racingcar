@@ -16,7 +16,7 @@ class CommaSplitterTest {
     @CsvSource({"'1,2,3,4',4", "'1,2',2"})
     void testSplit(String target, int length) {
         //when
-        List<String> splitted = CommaSplitter.split(target);
+        List<String> splitted = Splitter.splitComma(target);
 
         //then
         assertThat(splitted).isNotEmpty()

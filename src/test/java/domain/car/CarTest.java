@@ -44,12 +44,12 @@ class CarTest {
     void testMove(boolean movingCondition, int result) {
         //when
         Car car = Car.newInstance("junwoochoi");
-        String trackBeforeMove = car.getTrack();
+        int beforePosition = car.getPosition();
         car.move(() -> movingCondition);
-        String trackAfterMove = car.getTrack();
+        int afterPosition = car.getPosition();
 
         //then
-        assertThat(trackAfterMove.length() - trackBeforeMove.length()).isEqualTo(result);
+        assertThat(afterPosition-beforePosition).isEqualTo(result);
     }
 
 

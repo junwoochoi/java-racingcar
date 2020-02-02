@@ -17,15 +17,7 @@ public class Car {
     public static Car newInstance(String name) {
         return new Car(name);
     }
-
-    public String getTrack() {
-        StringBuilder track = new StringBuilder(this.name + " : ");
-        track.append(" : ");
-        for (int i = 0; i < position; i++) {
-            track.append(PATH_MARK);
-        }
-        return track.toString();
-    }
+    
 
     public void move(MovingStrategy movingStrategy) {
         Assert.notNull(movingStrategy);
