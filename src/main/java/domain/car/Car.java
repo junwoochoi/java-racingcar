@@ -1,7 +1,7 @@
-package car;
+package domain.car;
 
+import domain.strategy.MovingStrategy;
 import spark.utils.Assert;
-import strategy.MovingStrategy;
 
 public class Car {
     public static final int MOVE_DISTANCE = 1;

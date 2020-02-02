@@ -1,9 +1,9 @@
-package game;
+package domain.game;
 
-import car.Car;
-import car.Cars;
+import domain.car.Car;
+import domain.car.Cars;
+import domain.strategy.MovingStrategy;
 import spark.utils.CollectionUtils;
-import strategy.MovingStrategy;
 
 import java.util.List;
 

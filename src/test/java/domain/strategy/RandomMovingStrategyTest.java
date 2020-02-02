@@ -1,4 +1,4 @@
-package strategy;
+package domain.strategy;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -8,10 +8,8 @@ import java.util.Random;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.BDDMockito.given;
-import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyInt;
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 @DisplayName("랜덤 정책 테스트")
 public class RandomMovingStrategyTest {

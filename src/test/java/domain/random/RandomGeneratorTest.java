@@ -1,4 +1,4 @@
-package random;
+package domain.random;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -7,7 +7,7 @@ import java.util.Random;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@DisplayName("random 생성기 테스트")
+@DisplayName("domain.random 생성기 테스트")
 class RandomGeneratorTest {
 
     @Test

@@ -1,13 +1,14 @@
 package game;
 
-import car.Car;
+import domain.car.Car;
+import domain.game.RacingGame;
+import domain.random.RandomGenerator;
+import domain.strategy.RandomMovingStrategy;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.NullAndEmptySource;
 import org.junit.jupiter.params.provider.ValueSource;
-import random.RandomGenerator;
-import strategy.RandomMovingStrategy;
 
 import java.util.List;
 import java.util.stream.Collectors;

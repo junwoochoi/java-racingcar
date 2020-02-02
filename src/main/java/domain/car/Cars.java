@@ -1,8 +1,8 @@
-package car;
+package domain.car;
 
-import game.TrackDto;
+import domain.game.TrackDto;
+import domain.strategy.MovingStrategy;
 import spark.utils.CollectionUtils;
-import strategy.MovingStrategy;
 
 import java.util.ArrayList;
 import java.util.List;

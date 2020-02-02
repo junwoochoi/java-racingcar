@@ -1,6 +1,6 @@
-package game;
+package domain.game;
 
-import car.Car;
+import domain.car.Car;
 import spark.utils.CollectionUtils;
 
 import java.util.ArrayList;

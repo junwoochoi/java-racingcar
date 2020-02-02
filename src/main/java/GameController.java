@@ -1,6 +1,6 @@
-import game.RacingGame;
-import random.RandomGenerator;
-import strategy.RandomMovingStrategy;
+import domain.game.RacingGame;
+import domain.random.RandomGenerator;
+import domain.strategy.RandomMovingStrategy;
 import view.InputView;
 import view.OutputView;
 

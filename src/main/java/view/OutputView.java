@@ -1,8 +1,8 @@
 package view;
 
-import car.Car;
-import game.RacingGame;
-import game.TrackDto;
+import domain.car.Car;
+import domain.game.RacingGame;
+import domain.game.TrackDto;
 
 import java.util.List;
 import java.util.stream.Collectors;
