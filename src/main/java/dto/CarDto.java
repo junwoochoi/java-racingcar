@@ -10,14 +10,12 @@ import static util.Splitter.BLANK;
 
 public class CarDto {
     private String name;
-    private int position;
     private List<String> whiteSpaceList;
 
     public CarDto(Car car) {
         assert car != null;
         this.name = car.getName();
-        this.position = car.getPosition();
-        this.whiteSpaceList = IntStream.range(0, this.position)
+        this.whiteSpaceList = IntStream.range(0, car.getPosition())
                 .mapToObj(num -> BLANK)
                 .collect(Collectors.toList());
     }
@@ -25,11 +23,6 @@ public class CarDto {
     public String getName() {
         return name;
     }
-
-    public int getPosition() {
-        return position;
-    }
-
 
     public List<String> getWhiteSpaceList() {
         return whiteSpaceList;
