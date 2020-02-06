@@ -43,7 +43,7 @@ public class RacingGame {
         return cars.getTracks();
     }
 
-    private void proceedOneTurn() {
+    public void proceedOneTurn() {
         validateLeftTurnCounts();
         cars.moveAll(movingStrategy);
         this.countOfTurns--;
