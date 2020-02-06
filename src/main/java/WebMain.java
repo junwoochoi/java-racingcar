@@ -16,7 +16,7 @@ public class WebMain {
 
         post("/name", webRacingHandler.handleGetName());
 
-        get("/result", webRacingHandler.handleResult());
+        post("/result", webRacingHandler.handleResult());
     }
 
 
