@@ -8,3 +8,8 @@
 ## 온라인 코드 리뷰 과정
 * [텍스트와 이미지로 살펴보는 코드스쿼드의 온라인 코드 리뷰 과정](https://github.com/code-squad/codesquad-docs/blob/master/codereview/README.md)
 * [동영상으로 살펴보는 코드스쿼드의 온라인 코드 리뷰 과정](https://youtu.be/a5c9ku-_fok)
+
+
+
+# 해당 스터디 진행하며 배운점
+[배운 점 바로가기](./WIL.md)
